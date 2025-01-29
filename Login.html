@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login Here</title>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<h5>Classwork</h5>
+<form action="" class="p-5">
+    <legend class="text-center">Assignment</legend>
+    <!--Start-->
+    <div class="row mb-3">
+        <div class="col">
+            <label for="mmail" class="form-label">Email</label>
+            <input type="email" id="mmail" required="required" class="form-control">
+       </div>
+
+        <div class="col">
+            <label for="pword" class="form-label">Password</label>
+            <input type="password" id="pword" required="required" class="form-control">
+        </div>
+    </div>
+    <!--End-->
+
+    <label for="a1name" class="form-label">Address</label>
+    <input type="text" id="a1name" class="form-control mb-3" placeholder="1234 Main St." required="required">
+
+    <label for="a2name" class="form-label">Address 2</label>
+    <input type="text" id="a2name" class="form-control mb-3" placeholder="Apartment, studio, or floor" required="required">
+
+    <div class="row mb-3">
+        <div class="col">
+            <label for="cname" class="form-label">City</label>
+            <input type="text" id="cname" class="form-control" required="required">
+        </div>
+
+        <div class="col">
+            <label for="sname" class="form-label">State</label>
+            <select name="" id="sname" class="form-control">
+                <option value="Choose..." disabled="disabled">Choose...</option>
+                <option value="Kenya">Kenya</option>
+                <option value="Uganda">Uganda</option>
+                <option value="Tanzania">Tanzania</option>
+                <option value="Rwanda">Rwanda</option>
+            </select>
+
+        </div>
+
+        <div class="col">
+            <label for="zname" class="form-label">Zip</label>
+            <input type="file" id="zname" class="form-control" required="required">
+        </div>
+    </div>
+
+    <input type="checkbox" id="chname">
+    <label for="chname" class="form-label mb-3">Check me out</label>
+    <br>
+
+    <button type="submit" class="btn btn-primary">Sign in</button>
+
+
+
+</form>
+
+</body>
+</html>
